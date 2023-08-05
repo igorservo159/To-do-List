@@ -1,0 +1,40 @@
+.box1{
+    background: linear-gradient(180deg, rgb(103.06, 103.06, 103.06) 0%, rgba(230, 230, 230, 0) 100%);
+    border: 2px solid;
+    position: absolute;
+    border-color: #000000;
+    flex-direction: row;
+    top: 50px;
+    left: 50px;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+.title{
+    font-size: 30px;
+    font-weight: 550;
+    text-align: center;
+}
+.to_do_form{
+    padding-bottom: 1.5rem;
+}
+.input{
+    width: 90%;
+    margin: 2px;
+}
+.select{
+    margin-right: 15px;
+}
+.button{
+    background-color: #373a82;
+    color:white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.button:hover{
+    opacity: 1;
+}

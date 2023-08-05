@@ -1,0 +1,73 @@
+.box{
+    background: linear-gradient(180deg, rgb(151, 151, 151) 0%, rgba(230, 230, 230, 0) 100%);
+    position: relative;
+    border: 2px solid;
+    border-color: #000000;
+    display: flex;
+    flex-direction: column;
+    top: 30px;
+    left: 400px;
+    width: 800px;
+    min-height: 400px;
+    height: auto;
+    max-height: 550px;
+    overflow: auto;
+    padding: 10px 10px 20px 10px;
+}
+.title{
+    font-size: 30px;
+    font-weight: 550;
+    text-align: center;
+}
+.list{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    justify-content: space-between;
+}
+.to_do{
+    margin: 5px 10px;
+    display: grid;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: black;
+    padding: 5px;
+}
+.text{
+    color: #000000;
+    font-size: 17px;
+    margin: 5px 8px;
+}
+.buttons{
+    justify-content:left;
+    display: inline;
+    position: relative;
+}
+.button_green{
+    background-color: #18a81f;
+    color:white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+.button_green:hover{
+    opacity: 1;
+}
+.button_red{
+    background-color: #bd1717;
+    color:white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+.button_red:hover{
+    opacity: 1;
+}
